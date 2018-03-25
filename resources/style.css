@@ -1,0 +1,46 @@
+
+/* ---- HEADER ---- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.header-logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.header-logo span {
+  color: MediumAquamarine;
+}
+
+header nav {
+  padding-right: 30px;
+}
+header nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.nav-item {
+  color: black;
+}
