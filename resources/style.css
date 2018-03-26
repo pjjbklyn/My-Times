@@ -1,5 +1,5 @@
-
 /* ---- HEADER ---- */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,8 @@ header {
 header nav {
   padding-right: 30px;
 }
-header nav span{
+
+nav span{
   display: inline-block;
   padding: 20px 10px;
 }
@@ -75,11 +76,11 @@ header nav span{
   width: 240px;
 }
 
-/*.narrative {
+.narrative {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-}*/
+}
 
 .stories {
   display: flex;
@@ -91,6 +92,12 @@ header nav span{
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 32px;
+  color: black;
 }
 
 .news-bites {
@@ -112,19 +119,26 @@ header nav span{
   color: DimGray;
   border-bottom: 1px solid black;
 }
+
+
 /* ---- IMAGES ---- */
 
 .img-content {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
-
 }
+
+.img-content span {
+  padding: 20px;
+}
+
 .lead-story-tuna {
   background-image: url(./images/img-story-main.png);
   width: 630px;
@@ -147,6 +161,37 @@ header nav span{
 .cookie {
   height: 240px;
 }
+
+
+/* ---- FOOTER ----*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-navigation {
+  display: inline-block;
+  padding-left: 25px;
+}
+
 /* ---- TEMP ----
 
 div {
